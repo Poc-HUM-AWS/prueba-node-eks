@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "prueba-node-eks"
+  annotations:
+    "humanitec.com/orgId": "poc-plateng"
+    "humanitec.com/appId": "prueba-node-eks"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
